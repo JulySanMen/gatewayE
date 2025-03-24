@@ -20,5 +20,5 @@ class Server{
     start(){
         this.app.listen(this.port,()=>console.log("Gatewaycorrinedo en http://localhost:"+this.port));
     }
-}
+} 
 module.exports = Server;
